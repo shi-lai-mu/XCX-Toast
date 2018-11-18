@@ -21,7 +21,7 @@
 
 ##### 文字调用
 >弹出消息只需要调用setData,同时多次调用则会被加入任务列队，等待上一条Toast消失后显示下一条Toast，如果上一条显示时间为false则会直接显示，短时间内显示多条相同的Toast则会重合为两条
->[预览效果](https://gitee.com/slm47888/wechat_applet__component_toast/blob/master/images/%E6%96%87%E5%AD%97%E8%B0%83%E7%94%A8.gif)
+>[预览效果](https://github.com/shi-lai-mu/XCX-Toast/blob/master/images/%E6%96%87%E5%AD%97%E8%B0%83%E7%94%A8.gif)
 >```javascript
 >this.setData({
 >    toast: {
@@ -32,7 +32,7 @@
 
 
 ##### 图标调用
->icon为图标类型 [预览效果](https://gitee.com/slm47888/wechat_applet__component_toast/blob/master/images/%E5%9B%BE%E6%A0%87%E8%B0%83%E7%94%A8.gif)
+>icon为图标类型 [预览效果](https://github.com/shi-lai-mu/XCX-Toast/blob/master/images/%E5%9B%BE%E6%A0%87%E8%B0%83%E7%94%A8.gif)
 >```javascript
 >this.setData({
 >    toast: {
@@ -51,7 +51,7 @@
 
 
 ##### 回调函数
->this指向为组件内部，指向page可使用箭头函数 [预览效果](https://gitee.com/slm47888/wechat_applet__component_toast/blob/master/images/%E5%9B%9E%E8%B0%83%E5%87%BD%E6%95%B0.gif)
+>this指向为组件内部，指向page可使用箭头函数 [预览效果](https://github.com/shi-lai-mu/XCX-Toast/blob/master/images/%E5%9B%9E%E8%B0%83%E5%87%BD%E6%95%B0.gif)
 >```javascript
 >this.setData({
 >    toast: {
@@ -81,7 +81,7 @@
 >```
 
 ##### 按钮交互
->select: 传入数组,可多个按钮，默认灰色 [预览效果](https://gitee.com/slm47888/wechat_applet__component_toast/blob/master/images/%E6%8C%89%E9%92%AE%E4%BA%A4%E4%BA%92.gif)
+>select: 传入数组,可多个按钮，默认灰色 [预览效果](https://github.com/shi-lai-mu/XCX-Toast/blob/master/images/%E6%8C%89%E9%92%AE%E4%BA%A4%E4%BA%92.gif)
 >```javascript
 >let self = this;
 >this.setData({
